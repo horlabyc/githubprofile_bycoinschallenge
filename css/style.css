@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.d-none {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.border {
+  border: 1px solid #e1e4e8;
+}
+
+.text-grey {
+  color: #6a737d;
+}
+
+header {
+  background-color: #24292e;
+}
+header .topnav {
+  padding: 1rem;
+  justify-content: space-between;
+}
+header .topnav .icon {
+  color: #fff;
+}
+header .topnav .icon.menu-icon {
+  font-size: 1.7rem;
+}
+header .topnav .icon.github-icon {
+  font-size: 1.7rem;
+}
+header .header-items {
+  margin-top: 5px;
+  padding: 0 1rem 1rem;
+}
+header .header-items .header-search {
+  margin-bottom: 1rem;
+}
+header .header-items .header-search #header-search-form label {
+  background: #24292e;
+  color: #fff;
+}
+header .header-items .header-search #header-search-form label input {
+  width: 100%;
+  color: inherit;
+  background: none;
+  border-radius: 6px;
+  padding: 5px 0px 5px 5px;
+  outline: none;
+  border: 1px solid #444d56;
+}
+header .header-items .header-links .header-link {
+  padding: 8px 0 8px 0;
+  color: #fff;
+  font-size: 0.8rem;
+  border-top: 1px solid #444d56;
+  align-items: center;
+}
+header .header-items .header-links .header-link .fa-user-circle, header .header-items .header-links .header-link .fa-sign-out-alt {
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
+main .user-profile {
+  padding: 0.5rem 1rem;
+}
+main .user-profile .meta {
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 10px;
+  margin-bottom: 24px !important;
+}
+main .user-profile .meta .avatar {
+  border-radius: 50%;
+  width: calc(100% - 10px);
+}
+main .user-profile .meta .name h1 {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.25;
+}
+main .user-profile .meta .name p {
+  color: #586069;
+  font-size: 20px;
+}
+main .user-profile .action {
+  border-radius: 6px;
+  padding: 7px;
+}
+main .user-profile .action.status {
+  margin-bottom: 8px !important;
+}
+main .user-profile .action.status span {
+  font-size: 12px;
+  margin-left: 5px;
+}
+main .user-profile .action.edit-profile {
+  margin-bottom: 16px;
+}
+main .user-profile .action.edit-profile span {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+main .user-profile .bio {
+  margin-bottom: 16px !important;
+}
+main .user-profile .email {
+  margin-bottom: 8px;
+}
+main .user-profile .email span {
+  margin-left: 5px;
+}
+main .user-profile .counter .users {
+  font-size: 0.9rem;
+}
+main .user-profile .counter .users svg {
+  margin-right: 5px;
+}
+main .user-profile .counter .users span {
+  margin-right: 5px;
+}
+main .user-profile .counter .users span:nth-of-type(1), main .user-profile .counter .users span:nth-of-type(3) {
+  font-weight: 600;
+}
+main .user-profile .counter .users span:nth-of-type(2), main .user-profile .counter .users span:nth-of-type(4) {
+  color: #586069;
+}
+main .content nav ul {
+  list-style: none;
+  display: flex;
+  margin: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #d1d5da;
+  overflow-x: scroll;
+}
+main .content nav ul li a {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Github Profile</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,500&display=swap" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <section class="topnav flex align-center">
+      <i class="fas fa-bars icon menu-icon" href="javascript:void(0);" onclick="doHandleMenuClick()"></i>
+      <i class="fab fa-github icon github-icon"></i>
+      <i class="fas fa-bell icon bell"></i>
+    </section>
+    <section class="header-items d-none">
+      <div class="header-search">
+        <form id="header-search-form">
+          <label for="search">
+            <input type="text" id="search" placeholder="Search">
+          </label>
+        </form>
+      </div>
+      <div class="header-links flex flex-column">
+        <a href="#" class="header-link">Dashboard</a>
+        <a href="#" class="header-link">Pull requests</a>
+        <a href="#" class="header-link">Issues</a>
+        <a href="#" class="header-link">Marketplace</a>
+        <a href="#" class="header-link">Explore</a>
+        <a href="#" class="header-link flex">
+          <i class="fas fa-user-circle"></i>
+          <span>horlaybc</span>
+        </a>
+        <a href="#" class="header-link flex">
+          <i class="fas fa-sign-out-alt"></i>
+          <span>Sign out</span>
+        </a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="user-profile">
+      <div class="meta grid align-center">
+        <img src="https://avatars3.githubusercontent.com/u/12951240?s=460&u=a541a11c058d04299585deb581c883787f9632f4&v=4" alt="avatar" class="avatar">
+        <div class="name">
+          <h1>Olaosebikan Sulaiman</h1>
+          <p>horlabyc</p>
+        </div>
+      </div>
+      <div class="status action flex border align-center">
+        <i class="far fa-smile"></i>
+        <span>Set status</span>
+      </div>
+      <p class="bio">Frontend Engineer</p>
+      <div class="edit-profile action flex border justify-center">
+        <span>Edit profile</span>
+      </div>
+      <div class="email flex align-center">
+        <i class="far fa-envelope"></i>
+        <span>olabisisulaiman@gmail.com</span>
+      </div>
+      <div class="flex counter align-center">
+        <div class="users flex align-center">
+          <svg class="text-grey" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true">
+            <path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path>
+          </svg>
+          <span>0</span><span>followers . </span>
+          <span>2</span><span>following . </span>
+        </div>
+        <div class="rating flex align-center">
+          <svg height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true">
+            <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
+          </svg>
+          <span>10</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Overview</a>
+          </li>
+          <li>
+            <a href="#">Repositories</a>
+          </li>
+          <li>
+            <a href="#">Project</a>
+          </li>
+          <li>
+            <a href="#">Packages</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </main>
+
+  <script src="https://kit.fontawesome.com/bbc509cd91.js" crossorigin="anonymous"></script>
+  <script src="./script/index.js"></script>
+</body>
+</html>
