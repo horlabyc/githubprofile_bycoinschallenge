@@ -97,6 +97,7 @@ header {
 main {
   .user-profile {
     padding: 0.5rem 1rem;
+    margin-bottom: 24px!important;
     .meta {
       grid-template-columns: 1fr 4fr;
       grid-gap: 10px;
@@ -164,11 +165,11 @@ main {
   }
 
   .content {
+    padding: 0.5rem 1rem;
     nav {
       ul {
         list-style: none;
         display: flex;
-        margin: 1rem;
         padding-bottom: 0.5rem;
         border-bottom: 1px solid #d1d5da;
         overflow-x: scroll;
@@ -176,6 +177,26 @@ main {
           a {
             padding: 8px 16px;
             font-size: 0.9rem;
+          }
+        }
+      }
+    }
+    .repo-actions {
+      padding-top: 16px!important;
+      padding-bottom: 16px!important;
+      .search {
+        #search-repo-form {
+          label {
+            color: #000000;
+            input {
+              width: 100%;
+              color: inherit;
+              background: none;
+              border-radius: 6px;
+              padding: 8px 0px 8px 5px;
+              outline: none;           
+              border: 1px solid #e1e4e8;
+            }
           }
         }
       }
